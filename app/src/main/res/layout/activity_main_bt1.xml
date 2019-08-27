@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/edtNum1"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number 1"/>
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/edtNum2"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number 2"/>
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:hint="Your Result" />
+    <Button
+        android:id="@+id/btnSum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Caculate"
+        android:text="Tổng"/>
+    <Button
+        android:onClick="Caculate"
+        android:id="@+id/btnMinus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hiệu"/>
+    <Button
+        android:id="@+id/btnTich"
+        android:onClick="Caculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tích"/>
+    <Button
+        android:id="@+id/btnthuong"
+        android:onClick="Caculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thương"/>
+    <Button
+        android:id="@+id/btnUoc"
+        android:onClick="Caculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ước số chung lớn nhất"/>
+    <Button
+        android:id="@+id/btnExit"
+        android:onClick="Caculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="thoát chương trình"
+        android:textColor="@color/colorRed"/>
+</LinearLayout>
